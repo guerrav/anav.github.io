@@ -1,0 +1,138 @@
+body {
+
+}
+body p, a, h4 {font-family: 'Open Sans'; font-weight: 400; font-style: normal; line-height: 1.4; text-decoration: none;}
+.center {text-align: center;opacity: 0.5;padding-top: 30px;}
+
+.header {
+  font-family: 'Dancing Script';
+  font-size: 72px;
+  color: #999;
+  padding-left: 10px;
+  margin-bottom: -15px;
+  margin-top: 13px;
+}
+
+.subheader {
+  font-weight: 300;
+  font-size: 13px;
+  color: #ccc;
+  padding-left: 10px;
+  padding-bottom: 20px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+.titulos {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #000;
+}
+
+.img-port {
+  height: 15em;
+  margin: auto;
+}
+
+.menu {
+  padding-bottom: 60px;
+  
+}
+.menu li a {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#icons {
+  text-align: center;
+  padding-top: 50px;
+}
+#icons > div {
+  display: inline-block;
+  margin: 10px;
+
+
+}
+
+#fill, #fill-circle {
+  border: 1px solid #999;
+  width: 35px;
+  overflow: hidden;
+  height: 35px;
+  position: relative;
+  color: #999;
+  -webkit-transition: border-color 0.15s ease-in-out;
+          transition: border-color 0.15s ease-in-out;
+}
+
+
+#fill a i, #fill-circle a i {
+  color: #999;
+
+}
+
+#fill i, #fill-circle i {
+  line-height: 35px;
+  font-size: 1.3em;
+  margin-left: -4px;
+  text-align: center;
+  display: block;
+  -webkit-transition: color 0.15s ease-in-out;
+          transition: color 0.15s ease-in-out;
+  position: relative;
+  z-index: 10;
+}
+#fill:hover, #fill-circle:hover {
+  border-color: #333;
+}
+#fill:hover i, #fill-circle:hover i {
+  color: white;
+}
+#fill:before, #fill-circle:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  background: #333;
+  -webkit-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
+}
+#fill:hover:before, #fill-circle:hover:before {
+  left: -5px;
+  top: -5px;
+  width: 45px;
+  height: 45px;
+}
+
+#fill-circle {
+  border-radius: 100%;
+}
+#fill-circle:before {
+  border-radius: 100%;
+}
+#fill-circle:hover:before {
+  top: -7px;
+  left: -7px;
+  width: 55px;
+  height: 55px;
+}
+
+.texto-proyecto {
+  
+}
+
+.texto-proyecto p {
+  padding: 10px 15px;
+  font-size: 13px;
+  line-height: 19px;
+}
