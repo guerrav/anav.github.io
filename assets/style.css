@@ -5,21 +5,34 @@ body p, a, h4 {font-family: 'Open Sans'; font-weight: 400; font-style: normal; l
 .center {text-align: center;opacity: 0.5;padding-top: 30px;}
 
 .header {
-  font-family: 'Dancing Script';
+  font-family:'Raleway', sans-serif;
+  font-weight: 100;
   font-size: 72px;
   color: #999;
   padding-left: 10px;
   margin-bottom: -15px;
   margin-top: 13px;
+  text-align: center;
 }
 
 .subheader {
   font-weight: 300;
   font-size: 13px;
-  color: #ccc;
+  color: #939393;
   padding-left: 10px;
   padding-bottom: 20px;
+  text-align: center;
 
+}
+
+.menu {
+  padding-bottom: 60px;
+  text-align: center;
+  
+}
+.menu li a {
+  font-size: 13px;
+  font-weight: 300;
 }
 
 a:link {
@@ -41,14 +54,12 @@ a:link {
   margin: auto;
 }
 
-.menu {
-  padding-bottom: 60px;
-  
+.img-detail {
+  width: 45em;
+  padding: 10px 0;
+  margin: auto;
 }
-.menu li a {
-  font-size: 13px;
-  font-weight: 300;
-}
+
 
 #icons {
   text-align: center;
